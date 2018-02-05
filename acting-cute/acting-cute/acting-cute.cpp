@@ -34,7 +34,8 @@ int main()
 	{
 		int h1, e1, m, e2, h2;
 		scanf("%d %d %d %d %d", &h1, &e1, &m, &e2, &h2);
-		if (h1 > hands_len || h2 > hands_len || e1 > eyes_len || e2 > eyes_len || m > mouses_len)
+		//这里如果判断少了，就会出现段错误！
+		if (h1 > hands_len || h2 > hands_len || e1 > eyes_len || e2 > eyes_len || m > mouses_len ||h1<1||h2<1||e1<1||e2<1||m<1)
 			printf("Are you kidding me? @\\/@\n");
 		else
 		{
