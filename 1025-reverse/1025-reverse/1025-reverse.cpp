@@ -6,7 +6,9 @@
 #include <iostream>
 #include <vector>
 #include <map>
-
+/*
+ÍÛ£¬algorithmÖĞÓĞreverseÚÀ....
+*/
 
 using namespace std;
 
