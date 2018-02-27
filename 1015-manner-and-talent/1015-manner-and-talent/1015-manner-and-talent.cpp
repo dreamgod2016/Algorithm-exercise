@@ -76,6 +76,7 @@ bool operator < (stu a, stu b)
 		}
 	}
 }
+//这里换成多个vector就不超时了=。=
 vector<stu> stus;
 int main()
 {
